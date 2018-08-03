@@ -57,6 +57,16 @@ public class Latihan1 {
                 System.out.println("nilai a sama dengan 6");
             }else {
                 System.out.println("nilai a lebih dari 5");
+                System.out.println("\nNested IF");
+                if(a < 7){
+                  System.out.println("nilai kurang dari 7");
+                  if(a > 2){
+                  System.out.println("nilai lebih dari 2");
+                  if(a < 4){
+                      System.out.println("nilai kurang dari 4");  
+                  }
+                  }
+                }
                         }
             }
         }
