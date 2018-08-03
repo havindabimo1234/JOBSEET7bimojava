@@ -65,6 +65,8 @@ public class Latihan1 {
                   if(a < 4){
                       System.out.println("nilai kurang dari 4");  
                      System.out.println("\nSWITCH..CASE");
+                     
+                     
                      switch (a){
                          case 1:  System.out.println("nilai a => 1"); break;
                          case 2:  System.out.println("nilai a => 2"); break;
@@ -72,6 +74,14 @@ public class Latihan1 {
                          case 4:  System.out.println("nilai a => 3 atau 4"); break;
                          case 5:  System.out.println("nilai a => 5"); break;
                          default: System.out.println("nilai a bukan antara 1-5");
+                         
+                         
+                         int nilai;
+                         System.out.print("\nNilai Anda ? ");
+                         nilai = scanner.nextInt();
+                         
+                         String grade = (nilai < 75) ? "belum kompeten " : "kompeten";
+                         System.out.println(nilai + "=>" + grade);
                      }
                   }
                   }
