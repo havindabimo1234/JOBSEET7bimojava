@@ -14,7 +14,7 @@ import java.util.Scanner;
 public class Latihan1 {
      public static void main(String[] args){
         
-        String identitas = "Akbar Vito Hartono / XR5 / 05";
+        String identitas = "havinda bimo r / XR5 / 14";
         System.out.println("Identitas : "+ identitas);
         
         Scanner scanner = new Scanner(System.in);
